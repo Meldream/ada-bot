@@ -6,7 +6,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 
-	"github.com/adayoung/ada-bot/settings"
+	"github.com/Meldream/ada-bot/settings"
 )
 
 func setRole(s *discordgo.Session, m *discordgo.Message, guildID string, roleName string, user *discordgo.User) {

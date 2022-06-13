@@ -11,7 +11,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 
-	"github.com/adayoung/ada-bot/settings"
+	"github.com/Meldream/ada-bot/settings"
 )
 
 type dice struct {

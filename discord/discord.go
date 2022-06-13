@@ -9,8 +9,8 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 
-	"github.com/adayoung/ada-bot/discord/botReactions"
-	"github.com/adayoung/ada-bot/settings"
+	"github.com/Meldream/ada-bot/discord/botReactions"
+	"github.com/Meldream/ada-bot/settings"
 )
 
 // BotID is set by InitDiscordSession for subsequent use in reactions dispatcher

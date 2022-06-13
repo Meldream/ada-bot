@@ -7,8 +7,8 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 
-	"github.com/adayoung/ada-bot/ire"
-	"github.com/adayoung/ada-bot/settings"
+	"github.com/Meldream/ada-bot/ire"
+	"github.com/Meldream/ada-bot/settings"
 )
 
 type whois struct {

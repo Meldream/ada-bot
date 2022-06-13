@@ -1,4 +1,4 @@
-module github.com/adayoung/ada-bot
+module github.com/Meldream/ada-bot
 
 go 1.16
 

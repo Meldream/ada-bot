@@ -10,7 +10,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 
-	"github.com/adayoung/ada-bot/settings"
+	"github.com/Meldream/ada-bot/settings"
 )
 
 // Reaction represents the bot's reaction on a given trigger string, a non-nil Timer can be used for delayed (re)execution

@@ -6,7 +6,7 @@ import (
 	"time"
 	_ "time/tzdata"
 
-	"github.com/adayoung/ada-bot/settings"
+	"github.com/Meldream/ada-bot/settings"
 	"github.com/bwmarrin/discordgo"
 )
 

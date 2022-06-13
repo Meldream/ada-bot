@@ -1,13 +1,12 @@
 discord:
-  botkey: "Paste the Bot User's token from https://discordapp.com/developers/applications/me here"
+  botkey: "OTg1NzY1NDg3MzgyMjM3MjE1.G5hAK0.9UQWPPLstUxzdjhQcbmNz3k5tEU30aLYqDCjeo"
   channel:
-    - "deathsightChannelID_1"
-    - "deathsightChannelID_2"
+    - "985769725441212426"
   qlength: 64
   waitms: "500ms"
 
 ironrealms:
-  apiurl: "https://api.achaea.com"
+  apiurl: "https://api.starmourn.com"
 
 database:
   connection: "user=ada password=ada dbname=ada-bot sslmode=disable"

@@ -8,7 +8,7 @@ import (
 	"github.com/bwmarrin/discordgo"
 	_eliza "github.com/necrophonic/go-eliza"
 
-	"github.com/adayoung/ada-bot/settings"
+	"github.com/Meldream/ada-bot/settings"
 )
 
 type eliza struct {

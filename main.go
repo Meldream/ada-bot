@@ -11,10 +11,10 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/adayoung/ada-bot/discord"
-	"github.com/adayoung/ada-bot/ire"
-	"github.com/adayoung/ada-bot/settings"
-	"github.com/adayoung/ada-bot/utils/storage"
+	"github.com/Meldream/ada-bot/discord"
+	"github.com/Meldream/ada-bot/ire"
+	"github.com/Meldream/ada-bot/settings"
+	"github.com/Meldream/ada-bot/utils/storage"
 )
 
 type config struct {
