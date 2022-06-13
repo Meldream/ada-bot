@@ -3,7 +3,7 @@ package ire
 import (
 	"log"
 
-	"github.com/adayoung/ada-bot/utils/storage"
+	"github.com/Meldream/ada-bot/utils/storage"
 )
 
 func init() {
