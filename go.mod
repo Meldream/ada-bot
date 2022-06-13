@@ -1,11 +1,11 @@
-module github.com/Meldream/ada-bot
+module github.com/adayoung/ada-bot
 
 go 1.16
 
 require (
-	github.com/gorilla/websocket v1.4.1
 	github.com/bwmarrin/discordgo v0.23.1
 	github.com/dustin/go-humanize v1.0.0
+	github.com/gorilla/websocket v1.4.1
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/lib/pq v1.10.2
 	github.com/necrophonic/go-eliza v1.0.0
@@ -13,3 +13,5 @@ require (
 	github.com/smartystreets/goconvey v1.6.4 // indirect
 	gopkg.in/yaml.v2 v2.4.0
 )
+
+replace github.com/adayoung/ada-bot => github.com/Meldream/ada-bot latest
