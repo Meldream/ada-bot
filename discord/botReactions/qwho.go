@@ -10,8 +10,8 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 
-	"github.com/Meldream/ada-bot/settings"
-	"github.com/Meldream/ada-bot/utils/httpclient"
+	"github.com/adayoung/ada-bot/settings"
+	"github.com/adayoung/ada-bot/utils/httpclient"
 )
 
 type character struct {
