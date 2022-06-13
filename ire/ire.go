@@ -75,29 +75,24 @@ func (g *Gamefeed) Sync() ([]Event, error) {
 type Player struct {
 	Name         string `json:"name"`
 	Fullname     string `json:"fullname"`
-	City         string `json:"city"`
-	House        string `json:"house"`
+	Faction      string `json:"faction"`
 	Level        string `json:"level"`
 	Class        string `json:"class"`
-	MobKills     string `json:"mob_kills"`
-	PlayerKills  string `json:"player_kills"`
-	XPRank       string `json:"xp_rank"`
-	ExplorerRank string `json:"explorer_rank"`
+	Age          string `json:"age"`
+	Captaincy    string `json:"captaincy"`
+	Explorer     string `json:"explorer"`
 }
 
 func (s *Player) String() string {
 	player := fmt.Sprintf(`
            Name: %s
           Class: %s (Level %s)
-           City: %s
-          House: %s
-    Kills (Mob): %s
-Kills (Players): %s
-      Rank (XP): %s
-Rank (Explorer): %s`,
+        Faction: %s
+            Age: %s
+      Captaincy: %s
+       Explorer: %s`,
 		s.Fullname, strings.Title(s.Class), s.Level,
-		strings.Title(s.City), strings.Title(s.House),
-		s.MobKills, s.PlayerKills, s.XPRank, s.ExplorerRank)
+		strings.Title(s.Faction), s.Age, s.Captaincy, s.Explorer)
 	return player
 }
 
