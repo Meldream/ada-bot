@@ -83,7 +83,7 @@ func (q *qwhoTrigger) Reaction(m *discordgo.Message, a *discordgo.Member, mType 
 	}
 	/* end rate limit qwho */
 
-	url := "http://api.achaea.com/characters.json"
+	url := "https://api.starmourn.com/characters.json"
 	response := "```"
 
 	var _results qwho
