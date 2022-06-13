@@ -29,7 +29,7 @@ func (r *readNews) Reaction(m *discordgo.Message, a *discordgo.Member, mType str
 	rMatch := readNewsRegexp.FindStringSubmatch(request)
 	if len(rMatch) > 0 {
 		section, number := rMatch[1], rMatch[2]
-		response := fmt.Sprintf("https://www.achaea.com/news/?game=Achaea&section=%s&number=%s", section, number)
+		response := fmt.Sprintf("https://www.starmourn.com/news/?game=Starmourn&section=%s&number=%s", section, number)
 		return Reaction{Text: response}
 	}
 	return Reaction{}
